@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="kr.or.shammah.d9.StringClassEx" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-11-18T09:25:16" hostname="Daniels-MacBook-Pro.local" time="0.012">
+<testsuite name="kr.or.shammah.d9.StringClassEx" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-11-21T07:17:00" hostname="Daniels-MacBook-Pro.local" time="0.013">
   <properties/>
-  <testcase name="stringTest()" classname="kr.or.shammah.d9.StringClassEx" time="0.012"/>
-  <system-out><![CDATA[srt.length(), str의 문자열을 반환 : 11
-str.isEmpty(), str이 비엉있는 문자열인지를 검사 (t/f) : false
-str.equals('Hello'), str과 일치된 전체 문자열을 검사 (t/f) : false
-str.charAt(n), str의 특정 인덱스 문자열을 반환 : H
-str.toLowerCase(), str의 모든 문자를 소문자로 변환하여 반환 : hello world
-str.toLowerCase(), str의 모든 문자를 대문자로 변환하여 반환 : HELLO WORLD
-str.contains('lo'), str의 문자열 중에서 특정문자열을 검사 (t/f) : true
-str.indexOf('o'), str의 특정문자열의 인덱스 번호를 반환 : 4
-str.startsWith()true
-str.endsWith()true
-str.repeat(4), str의 문자열을 해당 횟수 만큼 반복 반환 : Hello worldHello worldHello worldHello world
-str.concat(), str의 Hello world, My World
+  <testcase name="averPoint()" classname="kr.or.shammah.d9.StringClassEx" time="0.013">
+    <failure message="java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0" type="java.lang.IndexOutOfBoundsException">java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:361)
+	at java.base/java.util.ArrayList.set(ArrayList.java:441)
+	at kr.or.shammah.d9.StringClassEx.averPoint(StringClassEx.java:78)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+</failure>
+  </testcase>
+  <system-out><![CDATA[80
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

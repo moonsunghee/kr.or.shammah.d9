@@ -1,12 +1,1 @@
-.srt.length(), str의 문자열을 반환 : 11
-Kstr.isEmpty(), str이 비엉있는 문자열인지를 검사 (t/f) : false
-Ostr.equals('Hello'), str과 일치된 전체 문자열을 검사 (t/f) : false
-?str.charAt(n), str의 특정 인덱스 문자열을 반환 : H
-Zstr.toLowerCase(), str의 모든 문자를 소문자로 변환하여 반환 : hello world
-Zstr.toLowerCase(), str의 모든 문자를 대문자로 변환하여 반환 : HELLO WORLD
-Vstr.contains('lo'), str의 문자열 중에서 특정문자열을 검사 (t/f) : true
-Kstr.indexOf('o'), str의 특정문자열의 인덱스 번호를 반환 : 4
-str.startsWith()true
-str.endsWith()true
-ustr.repeat(4), str의 문자열을 해당 횟수 만큼 반복 반환 : Hello worldHello worldHello worldHello world
-+str.concat(), str의 Hello world, My World
+80
