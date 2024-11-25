@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="kr.or.shammah.d9.StringClassEx" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-11-21T07:17:00" hostname="Daniels-MacBook-Pro.local" time="0.013">
+<testsuite name="kr.or.shammah.d9.StringClassEx" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-11-22T09:17:19" hostname="Daniels-MacBook-Pro.local" time="0.028">
   <properties/>
-  <testcase name="averPoint()" classname="kr.or.shammah.d9.StringClassEx" time="0.013">
-    <failure message="java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0" type="java.lang.IndexOutOfBoundsException">java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
-	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
-	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
-	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
-	at java.base/java.util.Objects.checkIndex(Objects.java:361)
-	at java.base/java.util.ArrayList.set(ArrayList.java:441)
-	at kr.or.shammah.d9.StringClassEx.averPoint(StringClassEx.java:78)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-</failure>
-  </testcase>
-  <system-out><![CDATA[80
-]]></system-out>
+  <testcase name="listWithFunction()" classname="kr.or.shammah.d9.StringClassEx" time="0.028"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
