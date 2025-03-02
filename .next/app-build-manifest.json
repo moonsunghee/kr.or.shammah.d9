@@ -1,0 +1,32 @@
+{
+  "pages": {
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/(index)/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(index)/page.css",
+      "static/chunks/app/(index)/page.js"
+    ],
+    "/companyHiredDesigner/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/companyHiredDesigner/page.css",
+      "static/chunks/app/companyHiredDesigner/page.js"
+    ],
+    "/designerList/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/designerList/page.js"
+    ],
+    "/progressSituation/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/progressSituation/page.js"
+    ]
+  }
+}

@@ -1,0 +1,295 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[11].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[11].use[5]!./src/app/globals.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Serif+KR:wght@200..900&display=swap");
+:root {
+  --bg-color: #efefef;
+  --top-height: 40px;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  line-height: 20px;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+input, textarea, select, option, button, label {
+  font-size: 16px;
+}
+
+input,
+button {
+  box-sizing: border-box;
+  width: 100%;
+  line-height: 40px;
+  height: 40px;
+  padding: 0 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+input[type=submit], input[type=reset], input[type=button],
+button[type=submit],
+button[type=reset],
+button[type=button] {
+  background-color: #15d;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+button {
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+button.normal {
+  background-color: #999;
+}
+button.active {
+  background-color: #09f;
+}
+
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+label {
+  line-height: 30px;
+}
+
+body {
+  background-color: var(--bg-color);
+  font-size: 16px;
+  line-height: 20px;
+  overflow-x: hidden;
+  font-family: "Noto Sans Kr", sans-serif;
+  position: relative;
+  z-index: -10;
+}
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  font-weight: 700;
+}
+body h1 span,
+body h2 span,
+body h3 span,
+body h4 span,
+body h5 span,
+body h6 span {
+  font-weight: 300;
+}
+body p {
+  font-family: "Noto Serif KR", serif;
+}
+
+.global-header {
+  width: 100vw;
+  background-color: #000;
+  color: #FFF;
+  padding: 20px 0;
+}
+.global-header header {
+  width: 90%;
+  max-width: 1320px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.global-header header .gnb {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.global-header header .gnb .logo {
+  line-height: 40px;
+  color: #fff;
+}
+.global-header header .gnb .navi {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 20px;
+}
+.global-header header .gnb .navi li {
+  line-height: 40px;
+  padding: 0 10px;
+}
+.global-header header .util .navi {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.global-header header .util .navi li:last-of-type {
+  margin-left: 14px;
+}
+.global-header header .util .navi .login {
+  font-size: 14px;
+}
+.global-header header .util .navi .signup button {
+  background-color: #09f;
+  border: 0;
+  line-height: 40px;
+}
+.global-header header .util img {
+  border-radius: 100px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+}
+.global-header header .util .circleUser {
+  font-size: 36px;
+}
+
+.content {
+  width: 100%;
+  padding: 120px 0;
+}
+.content header {
+  width: 90%;
+  max-width: 1320px;
+  margin: 0 auto;
+  border-left: 1px solid #000;
+  padding-left: 20px;
+}
+.content header h3 {
+  font-size: 36px;
+  line-height: 60px;
+}
+.content header p {
+  font-size: 14px;
+  line-height: 20px;
+}
+.content section {
+  width: 90%;
+  max-width: 1320px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.global-footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+}
+.global-footer footer {
+  width: 90%;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+.global-footer footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.global-footer footer ul li {
+  width: 50px;
+  height: 50px;
+  margin: 0 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.global-footer footer ul a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 36px;
+}
+.global-footer footer ul a span {
+  font-size: 12px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+}
+.pagination button {
+  padding: 0;
+  margin: 0;
+  line-height: 100%;
+  font-size: 14px;
+  width: 32px;
+  height: 32px;
+  color: #000;
+}
+.pagination ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pagination ul li {
+  width: 32px;
+  height: 32px;
+}
+.pagination ul li > * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
